@@ -3,8 +3,19 @@ import Head from 'next/head'
 import * as React from "react";
 
 function MyApp({ Component, pageProps }) {
+<<<<<<< Updated upstream
   return <>
     <Head>
+=======
+ 
+  return  <Component {...pageProps} />
+
+    /*{ <Head>
+=======
+  return <>
+    <Head>
+
+>>>>>>> Stashed changes
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
